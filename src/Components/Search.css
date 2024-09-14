@@ -1,0 +1,50 @@
+ /* src/Search.css */
+.search-bar-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+body{
+    background-image: url("../assets/earth-covered-with-global-network-internet-background-generated-ai_454018-758.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-results {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.result-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
